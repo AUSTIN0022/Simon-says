@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Say</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Simon Says</h1>
+        <h4>Press any key to start</h4>
+        <div class="buttons">
+            <div class="line_1">
+                <div class="btn red" type="button" id="red"></div>
+                <div class="btn blue" type="button" id="blue"></div>
+            </div>
+            <div class="line_2">
+                <div class="btn green" type="button" id="green"></div>
+                <div class="btn yellow" type="button" id="yellow"></div>
+            </div>
+        </div>
+        <div>
+            <label for="mode"><b>Choose Mode</b></label>
+            <select id="mode" class="mode">
+                <option value="">mode</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+
+            </select>
+        </div>
+        <script src="script.js" ></script>
+
+</body>
+</html>

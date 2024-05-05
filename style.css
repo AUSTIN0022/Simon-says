@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background-color: #FCFFE0;
+}
+
+.main {
+    text-align: center;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    border:5px solid black;
+    height: 120px;
+    width: 120px;
+    border-radius: 20%;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.red {
+    background-color: rgb(225, 46, 46);
+}
+
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: rgb(46, 151, 46);
+}
+.yellow {
+    background-color: yellow;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash{
+    background-color:lightgreen;
+}
+.error{
+    background-color:#F2613F;
+}
+
+.mode {
+    background-color: #FCFFE0;
+}
